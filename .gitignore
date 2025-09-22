@@ -1,0 +1,59 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode / IDE configs
+.vscode/
+.idea/
+*.swp
+
+# Logs & temp files
+*.log
+*.tmp
+*.out
+
+# Python packaging
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# FastAPI / Uvicorn specific
+*.db
+*.sqlite3
+
+# Docker
+*.pid
+*.seed
+*.bak
+.docker/
+docker-data/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Ollama / LLM cache (if any local cache dirs are used)
+ollama/
+models/
+
+# Project specific
+notebooks/.local_cache/
+notebooks/__temp__/
