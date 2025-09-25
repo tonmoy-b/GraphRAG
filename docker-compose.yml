@@ -6,8 +6,8 @@ services:
     - 7687:7687 #bolt protocol 
     - 7473:7473 #https
     environment:
-      NEO4J_AUTH: neo4j/password1 #usrname->neo4j, passwd->pass1. Username can't be changes, pwd must be len 8+
-      # NEO4J_AUTH: none #this disables auth, can be helpful for dev workflows
+      #NEO4J_AUTH: neo4j/password1 #usrname->neo4j, passwd->pass1. Username can't be changes, pwd must be len 8+
+      NEO4J_AUTH: none #this disables auth, can be helpful for dev workflows
       NEO4J_PLUGINS: "apoc,graph-data-science" 
       NEO4J_dbms_security_procedures_unrestricted: "apoc.*,gds.*"
       pipNEO4J_dbms_security_procedures_allowlist: "apoc.*,gds.*"
